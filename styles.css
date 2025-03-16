@@ -1,0 +1,74 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Figtree', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.container {
+  height: 410px;
+  width: 315px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 8px 8px 0 0 #000;
+}
+
+.container > img {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.container > p:first-of-type {
+  font-weight: normal;
+  font-size: small;
+  margin-top: 0px;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: larger;
+  margin: 0;
+}
+
+.container div p {
+  font-weight: lighter;
+  font-size: smaller;
+  color: hsl(0, 0%, 42%);
+}
+
+.profile {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile span {
+  font-weight: 900;
+  font-size: small;
+}
+
+.profile img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: hsl(47, 88%, 63%);
+  font-size: small;
+  font-weight: 900;
+  border: none;
+  width: 70px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
